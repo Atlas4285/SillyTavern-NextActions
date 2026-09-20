@@ -1,0 +1,7 @@
+{
+    "next_actions.settings.title": "Next Actions",
+    "next_actions.settings.behavior": "点击选项后的行为",
+    "next_actions.settings.behavior.fill": "填入输入框",
+    "next_actions.settings.behavior.send": "直接发送",
+    "next_actions.settings.behavior.description": "选择点击建议按钮时，是只填入输入框，还是立即发送。"
+}
