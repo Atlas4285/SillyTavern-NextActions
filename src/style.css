@@ -1,3 +1,30 @@
-.hello-world-message {
-    color: blue;
+.next-actions {
+	display: grid;
+	gap: 0.5em;
+	margin: 0.5em 2px;
+}
+
+.next-actions__button {
+	width: 100%;
+	padding: 7px 14px;
+	border: none;
+	border-radius: 5px;
+	background-color: var(--grey30);
+	color: var(--SmartThemeBodyColor);
+	font-family: var(--mainFontFamily), sans-serif;
+	font-size: calc(var(--mainFontSize) * 0.9);
+	text-align: left;
+	cursor: pointer;
+
+	user-select: text;
+	-webkit-user-select: text;
+}
+
+.next-actions__button:not(.next-actions__button--inactive):hover {
+	filter: brightness(1.15);
+}
+
+.next-actions__button--inactive {
+	opacity: 0.5;
+	cursor: text;
 }

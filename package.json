@@ -1,10 +1,11 @@
 {
-  "name": "extension-webpack-template",
+  "name": "sillytavern-next-actions",
   "type": "module",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "build": "webpack --mode production",
+    "dev": "webpack --mode development --watch",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
   },

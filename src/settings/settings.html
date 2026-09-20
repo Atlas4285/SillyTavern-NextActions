@@ -1,0 +1,41 @@
+<div id="next_actions_settings" class="next-actions-settings">
+	<div class="inline-drawer">
+		<div class="inline-drawer-toggle inline-drawer-header">
+			<b data-i18n="next_actions.settings.title"> Next Actions </b>
+
+			<div
+				class="inline-drawer-icon fa-solid fa-circle-chevron-down down"
+			></div>
+		</div>
+
+		<div class="inline-drawer-content">
+			<label
+				for="next_actions_behavior"
+				data-i18n="next_actions.settings.behavior"
+			>
+				Action button behavior
+			</label>
+
+			<select id="next_actions_behavior" class="text_pole">
+				<option
+					value="fill"
+					data-i18n="next_actions.settings.behavior.fill"
+				>
+					Fill input
+				</option>
+
+				<option
+					value="send"
+					data-i18n="next_actions.settings.behavior.send"
+				>
+					Send immediately
+				</option>
+			</select>
+
+			<small data-i18n="next_actions.settings.behavior.description">
+				Choose whether clicking an action fills the input or sends it
+				immediately.
+			</small>
+		</div>
+	</div>
+</div>
